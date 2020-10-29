@@ -8,32 +8,32 @@ import com.gebeya.framework.util.logE
 open class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        d("onCreate")
+        d("< -------------------- onCreate(Bundle?) -------------------- >")
     }
 
     override fun onStart() {
         super.onStart()
-        d("onStart")
+        d("< -------------------- onStart() -------------------- >")
     }
 
     override fun onResume() {
         super.onResume()
-        d("onResume")
+        d("< -------------------- onResume() -------------------- >")
     }
 
     override fun onPause() {
         super.onPause()
-        d("onPause")
+        d("< -------------------- onPause() -------------------- >")
     }
 
     override fun onStop() {
         super.onStop()
-        d("onStop")
+        d("< -------------------- onStop() -------------------- >")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        d("onDestroy")
+        d("< -------------------- onDestroy() -------------------- >")
     }
 
     protected fun d(message: String) {
