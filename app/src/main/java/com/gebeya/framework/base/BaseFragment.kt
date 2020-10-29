@@ -28,7 +28,7 @@ open class BaseFragment : Fragment() {
      * @param layoutId layout resource ID to inflate from.
      * @param container [ViewGroup] container to attach to.
      */
-    protected fun inflate(layoutId: Int, container: ViewGroup) {
+    protected fun inflate(layoutId: Int, container: ViewGroup?) {
         root = layoutInflater.inflate(layoutId, container, false)
     }
 
