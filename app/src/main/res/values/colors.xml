@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--==================== COLOR PALETTE ==================== -->
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="gray">#777777</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <!--PURPLE COLORS-->
+    <color name="purple">#AE01FF</color>
+    <color name="purple_dark">#8800C7</color>
+
+    <!--GREEN COLORS-->
+    <color name="green">#017B0A</color>
+    <color name="green_dark">#005F07</color>
+
+    <!--RED COLORS-->
+    <color name="yellow">#FF9B01</color>
+    <color name="yellow_dark">#C77900</color>
+
+    <!--==================== THEME COLORS ==================== -->
+    <color name="colorPrimary">@color/yellow</color>
+    <color name="colorPrimaryDark">@color/yellow_dark</color>
+    <color name="colorAccent">@color/purple</color>
+</resources>

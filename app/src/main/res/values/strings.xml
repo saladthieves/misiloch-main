@@ -1,0 +1,15 @@
+<resources>
+    <!--==================== COMMON ==================== -->
+    <string name="app_name">Misiloch</string>
+
+    <!--==================== SPLASH ==================== -->
+
+    <!--==================== WELCOME ==================== -->
+
+    <!--==================== HOME ==================== -->
+    <string name="home_title_label">Misiloch</string>
+
+    <!--==================== SETTINGS ==================== -->
+    <string name="settings_title_label">Settings</string>
+
+</resources>
