@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".welcome.WelcomeActivity">
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/welcomeViewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeMiddleGuideLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/welcomeMiddleGuideLine"
         android:layout_width="wrap_content"
