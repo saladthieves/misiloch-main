@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/app_theme">
+        <activity android:name=".welcome.WelcomeActivity"></activity>
         <activity
             android:name=".splash.SplashActivity"
             android:theme="@style/app_theme.no_toolbar.fullscreen">
