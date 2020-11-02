@@ -5,6 +5,28 @@
     <!--==================== SPLASH ==================== -->
 
     <!--==================== WELCOME ==================== -->
+    <string name="welcome_1_title">Welcome</string>
+    <string name="welcome_1_description">Browse the coolest pictures from around the world.</string>
+
+    <string name="welcome_2_title">Favorite</string>
+    <string name="welcome_2_description">Save and favorite pictures that make the biggest impact on you.</string>
+
+    <string name="welcome_3_title">Share</string>
+    <string name="welcome_3_description">Give your friends a smile by sharing amazing pictures with them.</string>
+
+    <string-array name="welcome_titles">
+        <item>@string/welcome_1_title</item>
+        <item>@string/welcome_2_title</item>
+        <item>@string/welcome_3_title</item>
+    </string-array>
+
+    <string-array name="welcome_descriptions">
+        <item>@string/welcome_1_description</item>
+        <item>@string/welcome_2_description</item>
+        <item>@string/welcome_3_description</item>
+    </string-array>
+
+    <string name="welcome_skip_button">Skip</string>
 
     <!--==================== HOME ==================== -->
     <string name="home_title_label">Misiloch</string>
