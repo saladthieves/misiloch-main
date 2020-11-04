@@ -31,7 +31,9 @@
     <!--==================== HOME ==================== -->
     <string name="home_title_label">Misiloch</string>
 
-    <!--==================== SETTINGS ==================== -->
-    <string name="settings_title_label">Settings</string>
+    <!--==================== ABOUT ==================== -->
+    <string name="about_title_label">About Misiloch</string>
+    <string name="about_author_label" formatted="false">Author: %s</string>
+    <string name="about_status_label" formatted="false">Status: %s</string>
 
 </resources>
